@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Frequently Asked Questions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style/faq.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <style>
+        
+        body{
+             box-sizing: border-box;
+            font-size: small;
+            margin: 0;
+            padding: 0;
+            font-family: "Nunito"
+   
+}
+
+#image{
+                height: 50px;
+                width:50px;
+                border-radius:100px;
+            }
+            #std-reviews{
+                margin:10px;
+                background: #FFFFFF;
+                box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.15);
+                border-radius: 20px;
+            }
+            #paragraphs{
+                text-align:center;
+                margin:15px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 151.2%;
+                color: #333333;
+            }
+            #paragraphs-2{
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 124.8%;
+                letter-spacing: 0.655606px;
+                color: #474747;
+            }
+            #header{
+                margin-top: 50px;
+                text-align:center;
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 25px;
+                line-height: 124.8%;
+                letter-spacing: 0.655606px;
+                color: #2A2B2A;
+            }
+            #see-more-btn{
+                margin-top:20px;      
+                background: #44CF6C;
+                border-radius: 10px;
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: 0.655606px;
+                color: #FFFFFF;
+            }
+            #star{
+                color: #FAF35E;
+                margin:10px;
+            }
+
+ul.navbar-nav li{
+    margin: auto 13px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.655606px;
+    color: #2A2B2A;
+}
+ul.navbar-nav button{
+    background-color: #2DCE89;
+    border-radius: 7px;
+    padding: 10px 45px;
+    color: #fff;
+}
+
+.navbar{
+    padding: 12px;
+}
+
+
+.wrap{
+			margin: 30px;
+			padding-top: 150px;
+			margin-left: 50px;
+			padding-left: 20px;
+			text-align: justify;	
+		}
+
+		.nested{
+			background: #F0F2F6;
+			background-size: cover;
+		}
+		
+		.par{
+			display:grid;
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+		 
+		.nested button{
+			margin-top: 20px;
+
+		}
+		.btn-1{
+			background: #44cf6c;
+			color: #fff;
+		}
+		.nested .btn-1{
+			background: #44cf6c;
+			margin-right: 60px;
+		}
+		.btn-2{
+			background: #3a0842;
+			width: 80px;
+			margin: 10px;
+			color: #5F2467;
+		}
+		.btn-3{
+			background:#FBE089;
+			width: 80px;
+			margin: 10px;
+			color: #EDC953;
+		}
+		.par{
+			margin-top: 20px;
+		}
+		.nested a{
+			text-decoration: none;
+			color:#000;
+		}
+
+		/*MEDIA QUERIES*/
+	
+			.par{
+				margin: 10px;
+				padding: 10px;
+				display: block;
+			}
+
+				.par p{border-bottom: 1px solid black;
+				}
+.nested button{
+				margin: 5px;
+				padding: 5px;
+				display: block;
+			}
+			
+			.navbar li{
+				display: block;
+			}
+			.logo{
+				width: 100px;
+				height: 100px;
+			}
+			
+			.wrap p, h2{
+			margin: 5px;
+			padding: 5px;
+			text-align: justify;	
+		}
+
+
+
+		
+	
+
+[Course-Curriculum]{
+    background-color:  rgba(129, 22, 124, 0.05);
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+#header1{
+    font-family: "Open Sans";
+}
+.wrapper{
+    display: flex;
+    box-sizing: border-box;
+}
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.view, .view2{
+    width: 50%;
+   padding: 0 20px 0 20px;
+}
+
+
+div.topic{
+    margin-bottom: 25px; 
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background: #DBCCD9;
+    color: #000;
+    cursor: pointer;
+    padding: 2px 30px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 34px;
+    overflow: hidden;
+    letter-spacing: 0.655606px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto 0;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .accordion:hover {
+    background-color: rgba(219, 204, 217, 0.815);
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 25px;
+    
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .panel p{
+      margin: 0;
+      padding: 0;
+      text-align: left;
+      text-decoration: underline;
+      font-family: "Lato";
+  }
+
+  .active1, .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.829);
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active1:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+
+  @media only screen and (max-width:615px) {
+      .wrapper{
+            width: 100%;
+          display: table;
+      }
+    .view, .view2{
+        width: 100%;
+    }
+}
+
+[about]{
+    padding-top:60px;
+    padding-bottom:50px;
+    background-color: #F9F9F9;
+}
+
+div.float-left{
+    border-radius: 50%;
+    background-color: #44CF6C;
+    width: 70px;
+    height: 70px;
+    margin-right: 30px; 
+}
+div.float-left img{
+    margin: 12px 15px;
+}
+.view2 div p{
+    font-family: "Open Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+
+letter-spacing: 0.655606px;
+
+color: #2B2D42;
+}
+.view2 div p.head{
+    font-family: "Open Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+/* or 28px */
+
+letter-spacing: 0.655606px;
+
+color: #3A0842;
+}
+
+.view2 >div{
+    width:60%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.view2 >div> div{
+    overflow: hidden;
+}
+#certificate{
+    width: 50px;
+    margin: 30px 10px;
+}
+    </style>
+</head>
+<body>
+       
+                <nav class="navbar navbar-expand-md navbar-light ">
+                    <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://res.cloudinary.com/charlene04/image/upload/v1570756471/logo_1_ekral5.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse  navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Hire a Grad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="faq.html">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#"><button>Start Learning</button></a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+                </nav>
+        <div class="container">
+                <div class="nested">
+                    <div class="wrap">
+                <p>N50,000 for 3 months full training </p>
+                <h2>Full Stack Development</h2>
+                <p>loremLorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas architecto minima,
+                  alias inventore quis in est eos iste veritatis optio asperiores earum excepturi cum
+                 quibusdam veniam rem laudantium quae. Recusandae?</p>
+                 <button class="btn-1">Start Learning</button>
+                 <a href="">Beginner</a>
+                 <button class="btn-2">Online</button>
+                 <button class="btn-3">Paid</button>
+                 <div class="par">
+                 <p>Duration<br>
+                 12 Weeks</p>
+                 <p>Course Starts<br>
+                 5, Dec 2019</p>
+                 <p>Average Rating<br>
+                      <span style="font-size:;color:yellow;"><span style="font-size:20px;color:yellow;">&starf; &starf;&starf;&starf;&starf; </span>
+    
+                     </p>
+             </div>
+             </div>
+            </div>
+            <div class="img">
+                <img src="https://res.cloudinary.com/cynthiaomovoiye/image/upload/c_scale,h_500,w_800/v1570803471/Rectangle_1_ap99fe.png">
+            </div>
+        </div>
+    <section  Course-Curriculum>
+        <div class="container">
+        <p id="header1">No Experience Required. Knowledge on how to use the computer.  Use windows or MAC OSX</p>
+        <h2 class="text-center">Course Curriculum</h2>
+        <div class="wrapper">
+            <div class="view">
+                <div class="topic">
+                <button class="accordion">Introduction</button>
+                    <div class="panel">
+                        <p>The beauty of life itself</p>
+                        <p>God is forever good</p>
+                         <p>Be happy. Life is too short</p>
+                        <p>Calculating Calculus and every other thingy!</p>
+                        <p>Halleluyah challenge</p>
+                    </div>
+                </div>
+            
+                <div class="topic">
+                <button class="accordion">Caliberation</button>
+                    <div class="panel">
+                            <p>The beauty of life itself</p>
+                            <p>God is forever good</p>
+                             <p>Be happy. Life is too short</p>
+                            <p>Calculating Calculus and every other thingy!</p>
+                            <p>Halleluyah challenge</p>
+                    </div>
+            </div>
+           
+                <div class="topic">
+                <button class="accordion">Mid Term Processes</button>
+                    <div class="panel">
+                            <p>The beauty of life itself</p>
+                            <p>God is forever good</p>
+                             <p>Be happy. Life is too short</p>
+                            <p>Calculating Calculus and every other thingy!</p>
+                            <p>Halleluyah challenge</p>
+                    </div>
+            </div>
+           
+                <div class="topic">
+                <button class="accordion">Something Nice</button>
+                    <div class="panel">
+                            <p>The beauty of life itself</p>
+                            <p>God is forever good</p>
+                             <p>Be happy. Life is too short</p>
+                            <p>Calculating Calculus and every other thingy!</p>
+                            <p>Halleluyah challenge</p>
+                    </div>
+            </div>
+           
+                <div class="topic">
+                <button class="accordion">Something Cool</button>
+                    <div class="panel">
+                            <p>The beauty of life itself</p>
+                            <p>God is forever good</p>
+                             <p>Be happy. Life is too short</p>
+                            <p>Calculating Calculus and every other thingy!</p>
+                            <p>Halleluyah challenge</p>
+                    </div>
+            </div>
+
+        </div>
+        <div class="view">
+                <div class="topic">
+                        <button class="accordion">Resumption</button>
+                            <div class="panel">
+                                    <p>The beauty of life itself</p>
+                                    <p>God is forever good</p>
+                                     <p>Be happy. Life is too short</p>
+                                    <p>Calculating Calculus and every other thingy!</p>
+                                    <p>Halleluyah challenge</p>
+                            </div>
+                        </div>
+                    
+                        <div class="topic">
+                        <button class="accordion">Vacation</button>
+                            <div class="panel">
+                                    <p>The beauty of life itself</p>
+                                    <p>God is forever good</p>
+                                     <p>Be happy. Life is too short</p>
+                                    <p>Calculating Calculus and every other thingy!</p>
+                                    <p>Halleluyah challenge</p>
+                            </div>
+                    </div>
+                   
+                        <div class="topic">
+                        <button class="accordion">Loremp Issum</button>
+                            <div class="panel">
+                                    <p>The beauty of life itself</p>
+                                    <p>God is forever good</p>
+                                     <p>Be happy. Life is too short</p>
+                                    <p>Calculating Calculus and every other thingy!</p>
+                                    <p>Halleluyah challenge</p>
+                            </div>
+                    </div>
+                   
+                        <div class="topic">
+                        <button class="accordion">Introduction</button>
+                            <div class="panel">
+                                    <p>The beauty of life itself</p>
+                                    <p>God is forever good</p>
+                                     <p>Be happy. Life is too short</p>
+                                    <p>Calculating Calculus and every other thingy!</p>
+                                    <p>Halleluyah challenge</p>
+                            </div>
+                    </div>
+                   
+                        <div class="topic">
+                        <button class="accordion">Life is Good</button>
+                            <div class="panel">
+                                    <p>The beauty of life itself</p>
+                                    <p>God is forever good</p>
+                                     <p>Be happy. Life is too short</p>
+                                    <p>Calculating Calculus and every other thingy!</p>
+                                    <p>Halleluyah challenge</p>
+                            </div>
+                    </div>
+
+        </div>
+    </div>
+
+    </section>
+    <section about>
+        <h4 class="text-center">On Start.ng, you  are privileged to</h4>
+        <div class="wrapper">
+            <div class="view2">
+                <div>
+                        <div class="float-left">
+                                <img  src="https://res.cloudinary.com/charlene04/image/upload/v1570808629/Vector_2_y4e6h1.png" alt="learn">
+                            </div>
+                    <div>
+                        <p class="head">Learn from the Best Teachers</p>
+                    <p>Lorem ipsum was going to church and she forgot to 
+                        ferdsdscsd sdsdnd dffdss gg dzxf fgg.</p>
+                    </div>
+
+                </div>
+                <div>
+                        <div class="float-left">
+                                <img  src="https://res.cloudinary.com/charlene04/image/upload/v1570808630/Vector_3_e18sff.png" alt="support">
+                            </div>
+                    <div>
+                    <p class="head">Supports from Mentors</p>
+                    <p>Lorem ipsum was going to church and she forgot to 
+                        ferdsdscsd sdsdnd dffdss gg dzxf fgg.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="view2">
+                <div>
+                    <div class="float-left">
+                        <img  src="https://res.cloudinary.com/charlene04/image/upload/v1570808630/Vector_4_gbdhmp.png" alt="join">
+                    </div>
+                    <div>
+                    <p class="head">Join our Online Developer Community</p>
+                    <p>Lorem ipsum was going to church and she forgot to 
+                            ferdsdscsd sdsdnd dffdss gg dzxf fgg.</p>
+                        </div>
+                </div>
+                <div>
+                        <div class="float-left">
+                                <img  id="certificate" src="https://res.cloudinary.com/charlene04/image/upload/v1570808630/Vector_5_eqhz8e.png" alt="Certifcate">
+                            </div>
+                        <div>
+                    <p class="head">Earn a Certifcate</p>
+                    <p>Lorem ipsum was going to church and she forgot to 
+                            ferdsdscsd sdsdnd dffdss gg dzxf fgg.</p>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <h3 id="header">What students have to say about us</h3>
+            <div class="row">
+                  <div class="col-sm-2">
+                  </div>
+                  <div class="col-sm-8" id="std-reviews">
+                        <p id="paragraphs">
+                                The HNG internship is a 3-month remote internship designed to find and develop the<br/>
+                                 most talented software developers. Everyone is welcome to participate (there is no<br/>
+                                 entrance exam). Anyone can log into the internship using their laptop. Each week, we<br/>
+                                 give tasks. 
+                        </p>
+                        <div class="row"> 
+                              <div class="col-sm-1">
+                                   <img src="pic-1.jpg" class="img-responsive" id="image" alt="resp-image">
+                              </div>
+                              <div class="col-sm-8">
+                                  <p id="paragraphs-2"> 
+                                        <i class="fa fa-star" id="star"></i>
+                                        <i class="fa fa-star" id="star"></i>
+                                        <i class="fa fa-star" id="star"></i>
+                                        <i class="fa fa-star" id="star"></i>
+                                        <i class="fa fa-star" id="star"></i><br/>
+                                        Dennis Lagbaja<br/>
+                                        <i>Completed the Front End Developer Class</i>
+                                  </p>
+                             </div>
+                        </div>
+                  </div>
+                  <div class="col-sm-2">
+                  </div>
+            </div>
+        
+                <div class="row">
+                  <div class="col-sm-2">
+                  </div>
+                  <div class="col-sm-8" id="std-reviews">
+                        <p id="paragraphs">
+                                The HNG internship is a 3-month remote internship designed to find and develop the<br/>
+                                most talented software developers. Everyone is welcome to participate (there is no<br/>
+                                entrance exam). Anyone can log into the internship using their laptop. Each week, we<br/>
+                                give tasks.
+                        </p>
+                        <div class="row"> 
+                              <div class="col-sm-1">
+                                   <img src="pic-2.jpg" class="img-responsive" id="image">
+                              </div>
+                              <div class="col-sm-8">
+                                  <p id="paragraphs-2">
+                                      <i class="fa fa-star" id="star"></i>
+                                      <i class="fa fa-star" id="star"></i>
+                                      <i class="fa fa-star" id="star"></i>
+                                      <i class="fa fa-star" id="star"></i>
+                                      <i class="fa fa-star" id="star"></i><br/>
+                                        Khadirat Uche Jumbo<br/>
+                                        <i>Completed the Laravel PHP Class</i>
+                                  </p>
+                             </div>
+                        </div>
+                  </div>
+                  <div class="col-sm-2">
+                  </div>
+
+                  <div class="row">
+                      <div class="col-sm-4"></div>
+                      <div class="col-sm-3" id="see-more-con">
+                      <button type="button" class="btn btn-lg" id="see-more-btn">See More Reviews</button>
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+        </div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active1");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+
+</script>
+
+</body>
+</html>
