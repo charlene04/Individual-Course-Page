@@ -1,2 +1,2 @@
 #Individual Course page
-https://charlene04.github.io/Individual-Course-Page/
+https://charlene04.github.io/Individual-Course-Page/individual-course.html
