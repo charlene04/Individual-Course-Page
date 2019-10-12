@@ -16,15 +16,10 @@
 		}
 		.navbar li{
 			display: inline-block;
-			padding: 10px;
-			font-size: 	
+			padding: 10px; 	
 		}
 		.container{
-			display: grid;
-			grid-template-columns: 1fr 1fr;
-			grid-auto-rows: minmax( auto);
-			grid-auto-columns: minmax( auto);
-
+				display: flex;
 		}
 		.wrap{
 			margin: 30px;
@@ -32,46 +27,41 @@
 			margin-left: 50px;
 			padding-left: 20px;
 			text-align: justify;	
-		}
+}
 
 		.nested{
 			background: #F0F2F6;
 			background-size: cover;
-		}
+	}
+
 		
 		.par{
 			display:grid;
 			grid-template-columns: 1fr 1fr 1fr;
 		}
 		 button{
-			padding: 10PX;
 			border: none;
 			border-radius: 10px;
 			outline: none;
-		}
-		.nested button{
-			margin-top: 20px;
-
+			padding: 5px;
 		}
 		.btn-1{
 			background: #44cf6c;
 			color: #fff;
-		}
-		.nested .btn-1{
-			background: #44cf6c;
-			margin-right: 60px;
+			margin-right: 25px;
 		}
 		.btn-2{
 			background: #3a0842;
 			width: 80px;
-			margin: 10px;
 			color: #5F2467;
+			margin-right: 5px;
+			margin-left: 5px;
 		}
 		.btn-3{
 			background:#FBE089;
 			width: 80px;
-			margin: 10px;
 			color: #EDC953;
+			margin-right: 5px;
 		}
 		.par{
 			margin-top: 20px;
@@ -79,6 +69,13 @@
 		.nested a{
 			text-decoration: none;
 			color:#000;
+
+		}
+		.btn{
+			display: flex;
+			justify-content: space-around;
+			padding: 5px;
+			padding-top: 10px;
 		}
 
 		/*MEDIA QUERIES*/
@@ -114,6 +111,7 @@
 				display: block;
 				width: 100%;
 				margin-top: 5px;
+
 
 			}
 			.wrap p, h2{
@@ -151,24 +149,25 @@
 			<p>loremLorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas architecto minima,
               alias inventore quis in est eos iste veritatis optio asperiores earum excepturi cum
              quibusdam veniam rem laudantium quae. Recusandae?</p>
+             <div class="btn">
              <button class="btn-1">Start Learning</button>
              <a href="">Beginner</a>
              <button class="btn-2">Online</button>
              <button class="btn-3">Paid</button>
+         </div>
              <div class="par">
              <p>Duration<br>
              12 Weeks</p>
              <p>Course Starts<br>
              5, Dec 2019</p>
              <p>Average Rating<br>
-             	 <span style="font-size:;color:yellow;"><span style="font-size:20px;color:yellow;">&starf; &starf;&starf;&starf;&starf; </span>
-
+             	 <span style="font-size:20px;color:yellow;">&starf; &starf;&starf;&starf;&starf; </span>
              	</p>
          </div>
          </div>
 		</div>
 		<div class="img">
-			<img src="https://res.cloudinary.com/cynthiaomovoiye/image/upload/c_scale,h_500,w_800/v1570803471/Rectangle_1_ap99fe.png">
+			<img src="https://res.cloudinary.com/cynthiaomovoiye/image/upload/v1570788609/creative-web-designer-planning-application-developing-template-layout_1418-2436_d4khy1.png">
 		</div>
 	</div>
 </body>

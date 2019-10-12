@@ -69,9 +69,49 @@ outline: none;
 #real-t-h-p{
   
 }
+@media screen and (max-width: 700px) {
+    .row{
+      display: block;
+    }
+    .column{
+      max-width: 100%;
+    }
+    #img{
+      display: none;
+    }
+    #real-t-p{
+      text-align: justify;
+    }
+    #real-time-proj{
+      width: 100%;
+      height: 800px;
+    }
+    #real-t-h{
+      text-align: center;
+      word-spacing: normal;
+    }
+  }
+
 @media screen and (max-width: 350px) {
+    .row{
+      display: block;
+    }
     .column{
       width:100%;
+    }
+    #img{
+      display: none;
+    }
+       #real-t-p{
+      text-align: justify;
+    }
+    #real-time-proj{
+      width: 100%;
+      height: 800px;
+    }
+    #real-t-h{
+      text-align: center;
+      word-spacing: normal;
     }
   }
   
@@ -87,7 +127,7 @@ outline: none;
             </div>
             <div class="column">
                 <p id="real-t-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue
-                    mollis a molestie sit. Odio lobortis justo sit at eget semper amet
+                    mollis a molestie sit.<br> Odio lobortis justo sit at eget semper amet
                      adipiscing. Netus sit imperdiet tincidunt ut. Habitasse amet
                     sagittis egestas quis ipsum.</p>
           </div>
@@ -98,8 +138,8 @@ outline: none;
            
             
         </div> 
-        <div class=" col-sm-6">
-          <img src="https://res.cloudinary.com/cynthiaomovoiye/image/upload/c_scale,h_300,w_800/v1570871655/banner_sax31g.png">
+        <div class=" col-sm-6" id="img">
+          <img src="https://res.cloudinary.com/cynthiaomovoiye/image/upload/v1570871655/banner_sax31g.png">
         </div>
     </div>
 
