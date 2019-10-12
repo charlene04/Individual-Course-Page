@@ -510,90 +510,143 @@ color: #2DCE89;
 
 /*For SubscribeNewLetter page*/
        #subscribe{
-           height:350px;
+           height:357px;
            margin-bottom: 0px;
             background: rgba(42, 43, 42, 0.05);
         }
         #sub-column{
-           width: 63%;
+            display: flex;
+           width: 90%;
            margin:0 auto;
-           padding: 50px;
-          
-           
+           padding: 80px; 
+           background: #2DCE89; 
         }
+
+        #left-col{
+            width: 70%;
+            float:left;
+            background: #9A75A0;
+        }
+        
+        #right-col{
+            
+            margin-left: 5%;
+            background: rgb(117, 160, 119);
+        }
+        #subscribe img  {
+            width:;
+            left: 19.38%;
+            right: 50%;
+            top: 0.25%;
+            bottom: 0.75%;
+        }
+       
         #first-p {
-            font-family: ;
+            font-family: Nunito;
             font-style: normal;
             font-weight: bold;
-            font-size: 28px;
-            line-height: 20px;
+            font-size: 2.5rem;
+            line-height: 55px;
             /* identical to box height */
             letter-spacing: 0.655606px;
             color: #000000;
         }
         #second-p{
-            font-family: ;
+            font-family: Lato;
             font-style: normal;
             font-weight: normal;
-            font-size: 15px;
-            line-height: 10px;
+            font-size: 1.25rem;
+            line-height: 24px;
             /* identical to box height */
             color: #000000;
         }
         #sub-column input[type="email"] {
             left: 198px;
-            width: 40%;
+            width: 70%;
             background: #FFFFFF;
             border: 1px solid #2A2B2A;
             box-sizing: border-box;
             padding: 5px;
 
+            font-family: Lato;
             font-style: normal;
             font-weight: normal;
-            font-size: 15px;
+            font-size: 16px;
+            line-height: 22px;
+
             color: rgba(0, 0, 0, 0.5);
+
         }
         #sub-column input[type="submit"] {
             background: #44CF6C;
             border-radius: 10px;
-            
-
-            font-family: ;
-            width: 20%;
+        
+            width: 25%;
             padding: 5px;
+            font-family: Nunito;
             font-style: normal;
             font-weight: bold;
-            font-size: small;
+            font-size: 16px;
             line-height: 22px;
             text-align: center;
             letter-spacing: 0.655606px;
+
             color: #FFFFFF;
+
             outline: none;
             border: none;
         }
-        div#sub-column>img {
-            left: 219.38%;
-            right: 0%;
-            top: 0.25%;
-            bottom: 0.75%;
-        }
+       
+        
     @media only screen and (max-width:800px) {
     #sub-column input[type="email"]{
         width: 80%;
+        margin-left:10%;
+        text-align: center;
         
     }
     #sub-column input[type="submit"]{
+        margin-left:10%;
         width: 80%;
         margin-top:10px;
     }
     #sub-column{
            width: 63%;
            margin:0 auto;
-           padding: 20px;
-           margin-left: 20%;
+           padding: 40px;
+           margin-left: 19%;
            
         }
-   
+        #first-p{
+            text-align: center;
+            font-size: 1.875rem;
+            line-height: 20px;
+            /* identical to box height */
+            letter-spacing: 0.655606px; 
+        }
+        #second-p{
+            text-align: center;
+            font-size: 	0.875rem;
+            line-height: 19px;
+            /* identical to box height */
+            color: #000000;
+        }
+        #sub-column{
+            display: block;
+        }
+        #subscribe img  {
+            padding-left: 20%;
+            width: 70%;
+            margin-top: 20px;
+        }   
+        #right-col{
+            
+            margin-left: 0%; 
+        }   
+        #left-col{
+            width: 100%;
+            
+        }
 }
 
     </style>
@@ -934,13 +987,19 @@ color: #2DCE89;
         </div>
         <div id="subscribe">
                 <div id="sub-column">
+                <div id="left-col">
                 <form action="" method="">
                     <p id="first-p">Subscribe to our Newsletter</p>
                     
                     <p id="second-p">Stay Updated with our latest news, discount and promotions</p>
                     <input  type="email" placeholder="Email address" name="mail" required>
-                    <input type="submit" value="Subscribe"> <img src="https://res.cloudinary.com/haroldb/image/upload/v1570862974/Group_mjaenh.png" alt="Newsletter">
-                    </form>
+                    <input type="submit" value="Subscribe">
+                </form>   
+                </div>
+                <div id="right-col">
+                    <img src="https://res.cloudinary.com/haroldb/image/upload/v1570862974/Group_mjaenh.png" alt="Newsletter">
+                </div>   
+                    
                 </div>
         </div>
         <footer class="page-footer font-small blue pt-4">
