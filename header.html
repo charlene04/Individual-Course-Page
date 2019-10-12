@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>individual course 3</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: Nunito;
+			font-weight: bold;
+		}
+		.navbar{
+			display: flex;
+			justify-content: space-around;
+			padding: 10px;
+		}
+		.navbar li{
+			display: inline-block;
+			padding: 10px;
+			font-size: 	
+		}
+		.container{
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-auto-rows: minmax( auto);
+			grid-auto-columns: minmax( auto);
+
+		}
+		.wrap{
+			margin: 30px;
+			padding-top: 150px;
+			margin-left: 50px;
+			padding-left: 20px;
+			text-align: justify;	
+		}
+
+		.nested{
+			background: #F0F2F6;
+			background-size: cover;
+		}
+		
+		.par{
+			display:grid;
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+		 button{
+			padding: 10PX;
+			border: none;
+			border-radius: 10px;
+			outline: none;
+		}
+		.nested button{
+			margin-top: 20px;
+
+		}
+		.btn-1{
+			background: #44cf6c;
+			color: #fff;
+		}
+		.nested .btn-1{
+			background: #44cf6c;
+			margin-right: 60px;
+		}
+		.btn-2{
+			background: #3a0842;
+			width: 80px;
+			margin: 10px;
+			color: #5F2467;
+		}
+		.btn-3{
+			background:#FBE089;
+			width: 80px;
+			margin: 10px;
+			color: #EDC953;
+		}
+		.par{
+			margin-top: 20px;
+		}
+		.nested a{
+			text-decoration: none;
+			color:#000;
+		}
+
+		/*MEDIA QUERIES*/
+		@media  (max-width: 700px){
+			body{
+				background: #2a2b2b;
+				background-size: cover;
+			}
+			.par{
+				margin: 10px;
+				padding: 10px;
+				display: block;
+			}
+
+				.par p{border-bottom: 1px solid black;
+				}
+.nested button{
+				margin: 5px;
+				padding: 5px;
+				display: block;
+			}
+			.img{
+				display: none;
+			}
+			.navbar li{
+				display: block;
+			}
+			.logo{
+				width: 100px;
+				height: 100px;
+			}
+			.container{
+				display: block;
+				width: 100%;
+				margin-top: 5px;
+
+			}
+			.wrap p, h2{
+			margin: 5px;
+			padding: 5px;
+			text-align: justify;	
+		}
+
+
+
+		}
+	
+	</style>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+		<nav>
+			<div class="navbar">
+			<img src="https://res.cloudinary.com/cynthiaomovoiye/image/upload/c_scale,w_183/v1570806022/Logo_1_brgmdh.png" class="logo" alt="logo"><a href=""></a>
+			<ul>
+				<li><a href=""></a>About Us</li>
+				<li><a href=""></a>Courses</li>
+				<li><a href=""></a>Hire a Grad</li>
+				<li><a href=""></a>Contact Us</li>
+				<li><a href=""></a><button class="btn-1">Start Learning</button></li>
+			</ul>
+		</div>
+		</nav>
+		<div class="container">
+			<div class="nested">
+				<div class="wrap">
+			<p>N50,000 for 3 months full training </p>
+			<h2>Full Stack Development</h2>
+			<p>loremLorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas architecto minima,
+              alias inventore quis in est eos iste veritatis optio asperiores earum excepturi cum
+             quibusdam veniam rem laudantium quae. Recusandae?</p>
+             <button class="btn-1">Start Learning</button>
+             <a href="">Beginner</a>
+             <button class="btn-2">Online</button>
+             <button class="btn-3">Paid</button>
+             <div class="par">
+             <p>Duration<br>
+             12 Weeks</p>
+             <p>Course Starts<br>
+             5, Dec 2019</p>
+             <p>Average Rating<br>
+             	 <span style="font-size:;color:yellow;"><span style="font-size:20px;color:yellow;">&starf; &starf;&starf;&starf;&starf; </span>
+
+             	</p>
+         </div>
+         </div>
+		</div>
+		<div class="img">
+			<img src="https://res.cloudinary.com/cynthiaomovoiye/image/upload/c_scale,h_500,w_800/v1570803471/Rectangle_1_ap99fe.png">
+		</div>
+	</div>
+</body>
+</html>
