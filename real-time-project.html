@@ -13,8 +13,9 @@
   #real-time-proj{
       background-color: #2DCE89;
       height: 400px;
+      width: 1350px;
       margin-top:50px;
-      
+      position:absolute;
   }
   #real-t-h{
 font-family: Nunito;
@@ -22,10 +23,8 @@ font-style: normal;
 font-weight: bold;
 font-size: 40px;
 line-height: 55px;
-margin-left:50px;
 margin-top:80px;
 letter-spacing: 0.655606px;
-
 color: #000000;
   }
   #real-t-p{  
@@ -34,12 +33,11 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 24px;
-margin-left:50px;
 color: #000000;
+
   }
   #btn-real-time{
-    margin-left:50px;
-    background: #3F113D;
+background: #3F113D;
 border-radius: 10px;
 font-family: Nunito;
 font-style: normal;
@@ -54,20 +52,28 @@ outline: none;
   }
   
   img{
-    width: 500px;
+    width: 650px;
     height: 400px;
   }
  
   .row{
     display: flex;
-    justify-content: space-around; 
+  }
+  .column{
+    width:600px;
   }
   .text{
     text-align: justify;
     margin: 50px;
   }
-
+#real-t-h-p{
   
+}
+@media screen and (max-width: 350px) {
+    .column{
+      width:100%;
+    }
+  }
   
 
     </style>
@@ -75,13 +81,22 @@ outline: none;
     <body>
 <div class="container" id="real-time-proj">
     <div class="row">
-        <div class= "text col-sm-6">
-            <h3 id="real-t-h">Build Real time Project</h3>
-            <p id="real-t-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue
-                 mollis a molestie sit. Odio lobortis justo sit at eget semper amet
-                  adipiscing. Netus sit imperdiet tincidunt ut. Habitasse amet
-                 sagittis egestas quis ipsum.</p>
-                 <button type="button" class="btn btn-lg" id="btn-real-time">Start Learning</button>
+        <div class= "text col-sm-8" id="real-t-h-p">
+            <div class="column">
+                <h3 id="real-t-h">Build Real time Project</h3>
+            </div>
+            <div class="column">
+                <p id="real-t-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue
+                    mollis a molestie sit. Odio lobortis justo sit at eget semper amet
+                     adipiscing. Netus sit imperdiet tincidunt ut. Habitasse amet
+                    sagittis egestas quis ipsum.</p>
+          </div>
+          <div class="column">
+             
+              <button type="button" class="btn btn-lg" id="btn-real-time">Start Learning</button>
+        </div>
+           
+            
         </div> 
         <div class=" col-sm-6">
           <img src="https://res.cloudinary.com/cynthiaomovoiye/image/upload/c_scale,h_300,w_800/v1570871655/banner_sax31g.png">
