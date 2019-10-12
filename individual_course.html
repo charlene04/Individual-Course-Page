@@ -63,8 +63,8 @@ ul.navbar-nav button{
 }
 
             #image{
-                height: 80px;
-                width:80px;
+                height: 50px;
+                width:50px;
                 border-radius:100px;
             }
             #std-reviews{
@@ -483,7 +483,7 @@ color: #2DCE89;
     padding-right: 5px;
 }
 .page-footer{
-    margin-top: 80px;
+    margin-top: 0px;
     background-color: #3A0842;
 }
 .row{
@@ -507,6 +507,95 @@ color: #2DCE89;
 .footer-copyright a img{
     margin-right: 15px;
 }
+
+/*For SubscribeNewLetter page*/
+       #subscribe{
+           height:350px;
+           margin-bottom: 0px;
+            background: rgba(42, 43, 42, 0.05);
+        }
+        #sub-column{
+           width: 63%;
+           margin:0 auto;
+           padding: 50px;
+          
+           
+        }
+        #first-p {
+            font-family: ;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 20px;
+            /* identical to box height */
+            letter-spacing: 0.655606px;
+            color: #000000;
+        }
+        #second-p{
+            font-family: ;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 10px;
+            /* identical to box height */
+            color: #000000;
+        }
+        #sub-column input[type="email"] {
+            left: 198px;
+            width: 40%;
+            background: #FFFFFF;
+            border: 1px solid #2A2B2A;
+            box-sizing: border-box;
+            padding: 5px;
+
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        #sub-column input[type="submit"] {
+            background: #44CF6C;
+            border-radius: 10px;
+            
+
+            font-family: ;
+            width: 20%;
+            padding: 5px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: small;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: 0.655606px;
+            color: #FFFFFF;
+            outline: none;
+            border: none;
+        }
+        div#sub-column>img {
+            left: 219.38%;
+            right: 0%;
+            top: 0.25%;
+            bottom: 0.75%;
+        }
+    @media only screen and (max-width:800px) {
+    #sub-column input[type="email"]{
+        width: 80%;
+        
+    }
+    #sub-column input[type="submit"]{
+        width: 80%;
+        margin-top:10px;
+    }
+    #sub-column{
+           width: 63%;
+           margin:0 auto;
+           padding: 20px;
+           margin-left: 20%;
+           
+        }
+   
+}
+
     </style>
 </head>
 <body>
@@ -575,7 +664,7 @@ color: #2DCE89;
                  </div>
             
         </div>
-        <div class="col-sm-12">
+        <div class="container">
             <h3 id="header">What you will learn</h3>
             <div class="row">
         <div class="col-sm-6" id="colll">
@@ -785,7 +874,7 @@ color: #2DCE89;
                                  give tasks. 
                         </p>
                         <div class="row"> 
-                              <div class="col-sm-2">
+                              <div class="col-sm-1">
                                    <img src="https://res.cloudinary.com/dycyotaya/image/upload/v1570851552/user-2_rfejei.png" class="img-responsive" id="image" alt="resp-image">
                               </div>
                               <div class="col-sm-8">
@@ -816,7 +905,7 @@ color: #2DCE89;
                                 give tasks.
                         </p>
                         <div class="row"> 
-                              <div class="col-sm-2">
+                              <div class="col-sm-1">
                                    <img src="https://res.cloudinary.com/dycyotaya/image/upload/v1570851516/user-1_mndkf1.png" class="img-responsive" id="image">
                               </div>
                               <div class="col-sm-8">
@@ -842,6 +931,17 @@ color: #2DCE89;
                     </div>
                     <div class="col-sm-1"></div>
                   </div>
+        </div>
+        <div id="subscribe">
+                <div id="sub-column">
+                <form action="" method="">
+                    <p id="first-p">Subscribe to our Newsletter</p>
+                    
+                    <p id="second-p">Stay Updated with our latest news, discount and promotions</p>
+                    <input  type="email" placeholder="Email address" name="mail" required>
+                    <input type="submit" value="Subscribe"> <img src="https://res.cloudinary.com/haroldb/image/upload/v1570862974/Group_mjaenh.png" alt="Newsletter">
+                    </form>
+                </div>
         </div>
         <footer class="page-footer font-small blue pt-4">
     
